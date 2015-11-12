@@ -1,6 +1,5 @@
 # steamcmd run as user steamcmd
 # https://developer.valvesoftware.com/wiki/SteamCMD#Linux
-# Based on the work of https://github.com/crosbymichael/steamcmd-docker/blob/master/Dockerfile
 
 FROM centos:latest
 MAINTAINER The Strelik <jason@jrdoppes.com>

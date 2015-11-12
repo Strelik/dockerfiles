@@ -32,4 +32,4 @@ RUN chown -R ut4:ut4 /home/ut4
 
 USER ut4
 
-ENTRYPOINT ./LinuxServer/Engine/Binaries/Linux/UE4Server-Linux-Test UnrealTournament DM-DeckTest?Game=DM?TimeLimit=10?GoalScore=534 -log
+ENTRYPOINT ./LinuxServer/Engine/Binaries/Linux/UE4Server-Linux-Test UnrealTournament CTF-Face?Game=CTF?MaxPlayers=16?botfill=8?TimeLimit=20?GoalScore=10 -log
