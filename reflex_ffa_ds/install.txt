@@ -1,0 +1,10 @@
+
+// update_csgo_ds.txt
+//
+@ShutdownOnFailedCommand 1 //set to 0 if updating multiple servers at once
+@NoPromptForPassword 1
+@sSteamCmdForcePlatformType windows
+login anonymous
+force_install_dir ./reflex
+app_update 329740 validate
+quit

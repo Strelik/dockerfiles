@@ -1,0 +1,3 @@
+27950\udp - Master Server Communication
+
+44400\udp - Game Server Port
